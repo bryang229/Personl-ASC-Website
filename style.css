@@ -1,0 +1,66 @@
+#headerNav {
+    display: flex;
+    justify-content: space-between;
+    background-color: firebrick;
+    color: black;
+    float: top;
+    width: 99%;
+}
+
+#homeBtn:hover,
+#musicLinkBtn:hover,
+#projectsBtnDiv:hover {
+    background-color: darkred;
+    opacity: .5;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    width: 5%;
+}
+
+body {
+    background-color: snow;
+}
+
+#zoomToHTML {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+}
+
+#zoomImg {
+    width: 35%;
+}
+
+#zthDesDiv {
+    width: 35%;
+}
+
+#projectsMainDiv {
+    text-align: center;
+}
+
+.projectDiv {
+    margin-left: 22.5%;
+    display: flex;
+    width: 60%;
+    border: black solid 5px;
+    justify-content: space-evenly;
+}
+
+hr {
+    margin: 10px;
+}
+
+.projectImg {
+    width: 60%;
+}
